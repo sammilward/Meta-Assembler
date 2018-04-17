@@ -1,0 +1,12 @@
+ORG	76
+VariableX EQU 212
+Orange EQU 425
+Apple EQU 111
+MOVEI	Apple
+ADD	VariableX
+BNE	47
+RTS
+TestVariable:	DS.b	54
+BNE	89
+RTS
+VARIABLE:	DC.w	5
